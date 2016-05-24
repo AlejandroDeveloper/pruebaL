@@ -12,22 +12,22 @@ protocol LoginProtocol {
     func getCredentials(user:String,Password:String)
 }
 
-@IBDesignable class LoginViewController: UIViewController {
+@IBDesignable public class LoginViewController: UIViewController {
 
     @IBOutlet weak private var txtUser: UITextField!
     @IBOutlet weak private var txtPassword: UITextField!
     @IBOutlet weak private var btnLogin: UIButton!
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
        
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override public func viewDidAppear(animated: Bool) {
          configureView()
     }
 
-    override func didReceiveMemoryWarning() {
+    override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
