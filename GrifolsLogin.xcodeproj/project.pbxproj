@@ -18,6 +18,8 @@
 		A96DF0671CF3590900E73D9E /* GrifolsLoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96DF0521CF3590800E73D9E /* GrifolsLoginFramework.framework */; };
 		A96DF0681CF3590900E73D9E /* GrifolsLoginFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A96DF0521CF3590800E73D9E /* GrifolsLoginFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A97012791CF4965600606E8D /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97012781CF4965500606E8D /* LoginService.swift */; };
+		A970127E1CF4A8AC00606E8D /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97012781CF4965500606E8D /* LoginService.swift */; };
+		A970127F1CF4A8B100606E8D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E47B571CF43F0A0025B28D /* LoginViewController.swift */; };
 		A9E47B581CF43F0A0025B28D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E47B571CF43F0A0025B28D /* LoginViewController.swift */; };
 		D7790274ABF4D3AC64BA90BF /* Pods_GrifolsLoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642715263112253C77781AD1 /* Pods_GrifolsLoginFramework.framework */; };
 		E1590687391E4F8558DF465A /* Pods_GrifolsLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDE2794E22B43CCC4CB35FF /* Pods_GrifolsLogin.framework */; };
@@ -513,6 +515,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A970127F1CF4A8B100606E8D /* LoginViewController.swift in Sources */,
+				A970127E1CF4A8AC00606E8D /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +610,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -658,6 +663,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

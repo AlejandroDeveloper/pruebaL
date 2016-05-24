@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import UIKit
 import Alamofire
+import UIKit
 
 enum GRStatusCode: String {
     case GRStatusCodeNoError = "0"
